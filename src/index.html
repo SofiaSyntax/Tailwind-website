@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/bdd34d0790.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="flex items-center justify-between px-8 py-8">
+        <div class="flex items-center">
+              <img src="tailwindcss-logotype.svg" alt="tailwind logo" class="h-5">
+        </div>
+          
+   <!-- links  -->
+    <nav class="hidden md:flex space-x-6 text-sm font-medium ml-auto">
+        <a href="#" class="text-gray-600 hover:text-gray-900">Docs</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900">Components</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900">Blog</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900 border-r-2 border-gray-300 pr-6">Showcase</a>
+      </nav>
+   
+<!-- icons  -->
+      <div class="hidden md:flex ml auto"> 
+          <i class="fa-regular fa-sun px-5"></i>
+          <i class="fa-brands fa-github"></i>
+      </div>
+
+      <div class="flex md:hidden">
+        <i class="fa-solid fa-magnifying-glass px-5"></i>
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </div>
+      
+
+      
+   </header>
+  
+   <!-- Hero Section -->
+<div class="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32">
+    <h1 class="text-slate-900 font-extrabold text-5xl lg:text-6xl tracking-tight text-center">
+        Rapidly build modern websites without ever leaving your HTML.
+    </h1>
+
+    <p class="mt-6 text-lg text-gray-600 text-center max-w-3xl mx-auto px-3">
+        A utility-first CSS framework packed with classes like 
+        <span class="text-sky-500 font-mono">flex</span>,
+        <span class="text-sky-500 font-mono">pt-4</span>, 
+        <span class="text-sky-500 font-mono">text-center</span>, 
+        and <span class="text-sky-500 font-mono">rotate-90</span> 
+        that can be composed to build any design, directly in your markup.
+      </p>
+      <!-- button & search  -->
+      <div class="mt-8 flex justify-center space-x-4">
+        <a href="#" class="px-52 py-3 bg-black text-white font-semibold rounded-lg shadow-md hover:bg-gray-800 sm:px-6">Get started</a>
+        <div class="relative hidden sm:flex">
+            <input type="text" placeholder="Quick search..." class="px-12 py-3 text-sm rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-sky-500">
+            <span class="absolute inset-y-0 left-1 flex items-center text-gray-400"><i class="fa-solid fa-magnifying-glass px-5"></i></span>
+            <span class="absolute inset-y-0 right-4 flex items-center text-gray-400">⌘ K</span>
+        </div>
+      </div>
+
+</div>
+
+</body>
+</html>
+

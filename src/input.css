@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Background */
+@layer components {
+  body {
+    /*  */
+    background-image: url(https://tailwindcss.com/_next/static/media/0.2a25f0af.jpg);
+  }
+}
